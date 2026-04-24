@@ -1,0 +1,47 @@
+.red{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    color: red;
+}
+
+.green{
+background-color: green;
+    height: 50px;
+    width: 50px;
+    color: green;
+    border-radius: 50%;
+    margin-top: 20px;
+     text-align: center;
+}
+
+.yt-music{
+    background-color: rgb(26, 25, 25);
+    color: white;
+    height: 80px;
+    width: 250px;
+}
+
+.install{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.add{
+    font-size: 10px;
+    width: 220px;
+    padding-left: 10px;
+    color: gray;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
