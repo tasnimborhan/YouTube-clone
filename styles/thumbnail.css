@@ -1,5 +1,7 @@
 p{
     font-family: roboto, arial;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -22,6 +24,11 @@ p{
 
 .video-title{
     margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 200px;
+    margin-bottom: 12px;
 }
 
 .pfp{
@@ -32,4 +39,13 @@ p{
 .thumbnail-row{
     margin-bottom: 10px;
 
+}
+
+.video-author , 
+.video-stats {
+    font-size: 12px;
+    color : rgb(96, 96, 96);
+}
+.video-author{
+    margin-bottom: 3px;
 }
