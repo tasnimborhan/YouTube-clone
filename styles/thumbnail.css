@@ -2,6 +2,7 @@ p{
     font-family: roboto, arial;
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -13,12 +14,11 @@ p{
 }
 
 .channel-picture{
-    display: inline-block ;
-    vertical-align: top;
+
 
 }
 .video-info{
-    display: inline-block;
+   
     
 }
 
@@ -48,4 +48,10 @@ p{
 }
 .video-author{
     margin-bottom: 3px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+   
 }
