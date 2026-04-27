@@ -32,32 +32,77 @@
 
 .search-bar{
     flex: 1;
-    height: 40px;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(158, 157, 157);
+    border-radius: px;
 }
 
+.search-bar::placeholder{
+    font-family: roboto, arial;
+    font-size: 15px;
+}
 
 
 
 .search{
     height: 40px;
     width: 60px;
+    background-color: rgb(236, 236, 236);
+    border-width: 1px;
+    border-color: solid;
+    border-color: rgb(158, 157, 157);
+    margin-left: -1px;
+    margin-right: 10px;
+   
 }
+
+
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
+}
+
 
 .voice{
     height: 40px;
     width: 40px;
+    border-radius: 20px;
+    border: none;
+   background-color:  rgb(247, 247, 247);;
 }
 
-
-
-
+.voice-search{
+    height: 24px;
+    margin-top: 4px;
+   
+}
 
 
 
 
 .right-section{
-    width: 200px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
 
 
+
+.upload{
+    height: 25px;
+}
+.yt-app{
+    height: 25px;
+}
+.notifications{
+    height: 25px;
+}
+.channel{
+    height: 25px;
+}
