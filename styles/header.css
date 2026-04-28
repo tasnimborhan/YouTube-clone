@@ -7,10 +7,12 @@
    top: 0;
    left: 0;
    right: 0;
+   z-index: 100;
    background-color: white;
    border-bottom-width: 1px;
    border-bottom-style: solid;
    border-bottom-color: rgb(228, 228, 228);
+
    
 
 }
@@ -114,6 +116,38 @@
 .notifications{
     height: 25px;
 }
+
+.count-icon{
+    postition: relative;
+
+}
+.count{
+    position: absolute;
+    top: 18px;
+    right: 60px;
+    background-color: rgb(219, 5, 5);
+    color: white;
+    font-family: roboto, arial;
+    font-size: 11px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+   
+}
+
+
+
+
+
+
+
 .channel{
     height: 25px;
 }
+
+
+
+
+
