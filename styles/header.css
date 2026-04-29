@@ -70,16 +70,42 @@
     border-color: rgb(158, 157, 157);
     margin-left: -1px;
     margin-right: 10px;
-   
+   position: relative;
 }
 
 
 .search-icon{
     height: 25px;
-    margin-top: 4px;
+ 
 }
 
+.search .tooltip, 
+.voice .tooltip{
+    position: absolute;
+    background-color: rgb(184, 183, 183);
+    color: white;
+    padding: 5px;
+    font-size: 11px;
+    border-radius: 2px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
 
+.search:hover .tooltip,
+.voice:hover .tooltip{
+    opacity: 1;
+}
+
+.search  .voice{
+
+    position : relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 .voice{
     height: 40px;
     width: 40px;
